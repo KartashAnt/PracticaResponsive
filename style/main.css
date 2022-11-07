@@ -2,3 +2,13 @@
     --mobile:100px;
     --tablet:500px;
 }
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    background: linear-gradient(to top left, #00e6da, #53f1ea 50%, #8ffff9);
+}
