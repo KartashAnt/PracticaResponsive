@@ -4,11 +4,12 @@
 }
 body{
     margin: 0;
+    background: linear-gradient(to top left, #00e6da, #53f1ea 50%, #8ffff9);
 }
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100px;
-    background: linear-gradient(to top left, #00e6da, #53f1ea 50%, #8ffff9);
+    background: #0000007F;
 }
