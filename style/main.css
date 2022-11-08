@@ -49,3 +49,22 @@ button:hover{
 button:active{
     background: #00000099;
 }
+aside{
+    display: inline-flex;
+    flex-direction: column;
+    background: #0000007F;
+    height: 500px;
+    width: 220px;
+}
+.search{
+    display: flex;
+}
+.search__input{
+    background: #00000088;
+    border: none;
+    color: #ffffff;
+}
+.search__input:focus{
+    background: #000000aa;
+    outline: none;
+}

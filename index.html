@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="style/main.css">
+    <script src="scripts/formScript.js"></script>
+    <script src="https://kit.fontawesome.com/60b2ed2003.js" crossorigin="anonymous"></script>
     <title>Pagina Responsiva</title>
 </head>
 <body>
@@ -24,9 +26,9 @@
         </section>
     </nav>
     <aside>
-        <form action="search.php">
-            <input type="text">
-            <input type="submit" value="search">
+        <form class="search" onsubmit="return submit()">
+            <input class="search__input" type="text">
+            <button class="search__button" type="submit"><i class="fa fa-search"></i></button>
         </form>
         <section class="buttons-context">
             <a href="#" target="_blank"><button>Weapon</button></a>
