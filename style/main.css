@@ -1,6 +1,6 @@
 :root{
     --mobile:100px;
-    --tablet:500px;
+    --tablet:1080px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 body{
@@ -53,10 +53,11 @@ aside{
     display: inline-flex;
     flex-direction: column;
     background: #0000007F;
-    height: 500px;
-    width: 220px;
+    height: 100vh;
+    max-width: 13vw;
 }
 .search{
+    margin-top: 5px;
     display: flex;
 }
 .search__input{
@@ -67,4 +68,18 @@ aside{
 .search__input:focus{
     background: #000000aa;
     outline: none;
+}
+.buttons-context{
+    display: flex;
+    flex-direction: column;
+}
+.buttons-context a{
+    flex-basis: 50px;
+}
+.corporative{
+    font-size: smaller;
+    margin-top: auto;
+}
+.corporative__name{
+    font-weight: bolder;
 }
