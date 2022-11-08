@@ -55,6 +55,7 @@ aside{
     background: #0000007F;
     height: 100vh;
     max-width: 13vw;
+    float: left;
 }
 .search{
     margin-top: 5px;
@@ -82,4 +83,24 @@ aside{
 }
 .corporative__name{
     font-weight: bolder;
+}
+article{
+    display: inline-grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    min-height: 100vh;
+    width: 86vw;
+    float: right;
+    align-items: center;
+    justify-items: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+}
+.product img{
+    height: 30vh;
+    max-width: 10vw;
+    object-fit: fill;
 }
