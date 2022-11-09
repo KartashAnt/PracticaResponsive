@@ -17,7 +17,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 100px;
     background: #0000007F;
 }
 header h1{
@@ -106,6 +105,7 @@ article{
     width: 50%;
     align-items: center;
     transition: .5s;
+    font-size: 3vh;
 }
 .product img{
     height: 25vh;
