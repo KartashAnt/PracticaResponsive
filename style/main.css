@@ -3,6 +3,12 @@
     --tablet:1080px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:#000000 ;
+}
 body{
     margin: 0;
     background: linear-gradient(to top left, #00e6da, #53f1ea 50%, #8ffff9);
@@ -104,7 +110,7 @@ article{
     height: 80%;
     width: 50%;
     align-items: center;
-    transition: background .5s;
+    transition: .5s;
 }
 .product img{
     height: 25vh;
@@ -120,4 +126,20 @@ article{
 .product:hover{
     background: #ff000088;
     border-radius: 15%;
+}
+.marketing{
+    background: #ffffffab;
+    display: flex;
+    justify-content: space-around;
+}
+.advert-item{
+    margin-top: 10px;
+    color:#000000;
+    background: #ffffff44;
+}
+.advert-item p{
+    text-align: center;
+}
+.advert-item:hover{
+    background: #ffffff77;
 }
