@@ -65,6 +65,7 @@ aside{
     background: #00000088;
     border: none;
     color: #ffffff;
+    width: 10vw;
 }
 .search__input:focus{
     background: #000000aa;
@@ -90,17 +91,33 @@ article{
     grid-template-rows: repeat(2,1fr);
     min-height: 100vh;
     width: 86vw;
-    float: right;
     align-items: center;
     justify-items: center;
+    background: #ffffff33;
 }
 .product{
     display: flex;
     flex-direction: column;
     width: min-content;
+    background: #ffff0088;
+    border-radius: 10%;
+    height: 80%;
+    width: 50%;
+    align-items: center;
+    transition: background .5s;
 }
 .product img{
     height: 30vh;
     max-width: 10vw;
     object-fit: fill;
+}
+.product__title{
+    font-family: 'Mr Dafoe', cursive;
+}
+.product__description{
+    text-align: center;
+}
+.product:hover{
+    background: #ff000088;
+    border-radius: 15%;
 }
