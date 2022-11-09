@@ -1,7 +1,3 @@
-:root{
-    --mobile:100px;
-    --tablet:1080px;
-}
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 a{
     text-decoration: none;
