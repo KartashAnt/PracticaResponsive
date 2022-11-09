@@ -1,4 +1,4 @@
-@media only screen and (max-width:100px) {
+@media only screen and (max-width:400px) {
     body{
         display: flex;
         flex-direction: column;
@@ -31,6 +31,8 @@
         display: none;
     }
     .search__input{
+        font-size: large;
+        height: 5vh;
         width: 98%;
         margin: 1%;
     }
@@ -40,7 +42,14 @@
     nav > *::-webkit-scrollbar{
         display: none;
     }
+    article{
+        display: flex;
+        flex-direction: column;
+    }
     .marketing{
         display: none;
+    }
+    .product{
+        margin: 1vh;
     }
 }
