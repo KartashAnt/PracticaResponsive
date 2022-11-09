@@ -1,5 +1,17 @@
 body{
     display: grid;
-    grid-template-columns: 13vw 87vw;
-    grid-template-rows: 10vh 5vh 100vh 30vh 3vh;
+    grid-template-columns: 13vw 85.7vw;
+    grid-template-rows: 15vh 10vh 100vh 30vh 5vh;
+}
+header{
+    grid-column: 1/3;
+}
+nav{
+    grid-column: 1/3;
+}
+aside{
+    grid-row: 3/5;
+}
+footer{
+    grid-column: 1/3;
 }
