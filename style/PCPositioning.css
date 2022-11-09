@@ -1,0 +1,5 @@
+body{
+    display: grid;
+    grid-template-columns: 13vw 87vw;
+    grid-template-rows: 10vh 5vh 100vh 30vh 3vh;
+}
