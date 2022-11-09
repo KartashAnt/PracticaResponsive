@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-columns: 13vw 85.7vw;
+    grid-template-columns: 13vw 87vw;
     grid-template-rows: 15vh 10vh 100vh 30vh 5vh;
 }
 header{

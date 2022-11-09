@@ -77,7 +77,7 @@ aside{
     flex-basis: 50px;
 }
 .corporative{
-    font-size: smaller;
+    font-size: xx-small;
     margin-top: auto;
 }
 .corporative__name{
@@ -94,6 +94,7 @@ article{
 .product{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: min-content;
     background: #ffff0088;
     border-radius: 10%;
@@ -104,8 +105,8 @@ article{
     font-size: 3vh;
 }
 .product img{
-    height: 25vh;
-    width: 8vw;
+    height: 25vmin;
+    width: 8vmax;
     object-fit: fill;
 }
 .product__title{
